@@ -252,47 +252,98 @@ async function loadPMX(path) {
   });
 }
 
+/* ══════════ 의상 레이어 ══════════
+   재질 이름으로 레이어를 추정한다. 추정이 빗나가는 재질은
+   아래 체크박스에서 하나씩 직접 켜고 끌 수 있다. */
+const LAYERS = [
+  { n: 0, key: '본체',     desc: '피부 · 얼굴 · 머리카락' },
+  { n: 1, key: '이너',     desc: '가장 안쪽 옷' },
+  { n: 2, key: '겉옷',     desc: '재킷 · 치마 · 양말 · 신발' },
+  { n: 3, key: '액세서리', desc: '벨트 · 리본 · 장식' }
+];
+
+function layerOf(name) {
+  const n = (name || '').toLowerCase();
+  if (/hat|hairband|flower|bow|metal|armring|legring|ring|star|band|belt|铭牌|腿环|红发带|皮带/.test(n)) return 3;
+  if (/skin|皮肤|face|facial|eye|hair|nail|bangs|口|舌|nose|眉毛|睫毛|白|zhi|cheek|emo|lip|white|shengheng/.test(n)) return 0;
+  if (/内衬|^up_?$|down_pants|^up_$/.test(n)) return 1;
+  return 2;
+}
+
+let matList = [];        // { i, name, layer, mat }
+
+function applyLayers(maxWorn) {
+  // maxWorn 이하 레이어만 입는다. 0 이면 본체만 남는다.
+  matList.forEach(m => {
+    if (m.layer === 0) return;                 // 본체는 프리셋이 건드리지 않는다
+    m.mat.visible = m.layer <= maxWorn;
+  });
+  syncChecks();
+}
+function syncChecks() {
+  matList.forEach(m => {
+    const c = document.querySelector(`[data-mat="${m.i}"]`);
+    if (c) c.checked = m.mat.visible;
+  });
+}
+
 /* ══════════ 재질(의상 파츠) 패널 ══════════ */
 function buildMaterialPanel() {
   const wrap = q('#vwMats');
   const mats = Array.isArray(mesh.material) ? mesh.material : [mesh.material];
 
-  const groups = new Map();
-  mats.forEach((m, i) => {
-    const name = m.name || `재질 ${i}`;
-    const g = name.includes('_') ? name.split('_')[0] : '기타';
-    if (!groups.has(g)) groups.set(g, []);
-    groups.get(g).push({ i, name });
+  matList = mats.map((mat, i) => {
+    const name = mat.name || `재질 ${i}`;
+    return { i, name, mat, layer: layerOf(name) };
   });
 
-  wrap.innerHTML = [...groups].map(([g, items]) => `
-    <div class="vgroup">
-      <div class="vgroup__h">
-        <span>${g}</span>
-        <button type="button" class="vmini" data-group="${g}" data-on="0">모두 끄기</button>
-      </div>
-      <div class="vgroup__b">
-        ${items.map(it => `
-          <label class="vchk"><input type="checkbox" data-mat="${it.i}" checked>
-            <span>${it.name}</span></label>`).join('')}
-      </div>
-    </div>`).join('');
+  const byLayer = LAYERS.map(L => ({ ...L, items: matList.filter(m => m.layer === L.n) }))
+                        .filter(L => L.items.length);
+
+  wrap.innerHTML = `
+    <div class="vsteps" id="vwSteps">
+      <button type="button" class="vstep is-on" data-worn="3">전부 입기</button>
+      <button type="button" class="vstep" data-worn="2">액세서리 벗기</button>
+      <button type="button" class="vstep" data-worn="1">겉옷 벗기</button>
+      <button type="button" class="vstep" data-worn="0">전부 벗기</button>
+    </div>
+    ${byLayer.map(L => `
+      <div class="vgroup" data-layer="${L.n}">
+        <div class="vgroup__h">
+          <span>L${L.n} ${L.key}<em>${L.desc}</em></span>
+          <button type="button" class="vmini" data-group="${L.n}" data-on="0">모두 끄기</button>
+        </div>
+        <div class="vgroup__b">
+          ${L.items.map(it => `
+            <label class="vchk" title="${it.name}"><input type="checkbox" data-mat="${it.i}" checked>
+              <span>${it.name}</span></label>`).join('')}
+        </div>
+      </div>`).join('')}`;
 
   wrap.onchange = e => {
     const c = e.target.closest('[data-mat]'); if (!c) return;
     mats[+c.dataset.mat].visible = c.checked;
+    markCustom();
   };
   wrap.onclick = e => {
-    const b = e.target.closest('[data-group]'); if (!b) return;
-    const on = b.dataset.on === '1';
-    groups.get(b.dataset.group).forEach(({ i }) => {
-      mats[i].visible = on;
-      const c = wrap.querySelector(`[data-mat="${i}"]`); if (c) c.checked = on;
-    });
-    b.dataset.on = on ? '0' : '1';
-    b.textContent = on ? '모두 끄기' : '모두 켜기';
+    const step = e.target.closest('[data-worn]');
+    if (step) {
+      qa('.vstep', wrap).forEach(b => b.classList.toggle('is-on', b === step));
+      applyLayers(+step.dataset.worn);
+      const worn = +step.dataset.worn;
+      say(worn === 3 ? '전부 입은 상태' : worn === 0 ? '본체만 남김 (L1~L3 모두 꺼짐)' : `L${worn} 까지만 착용`);
+      return;
+    }
+    const g = e.target.closest('[data-group]'); if (!g) return;
+    const on = g.dataset.on === '1';
+    matList.filter(m => m.layer === +g.dataset.group).forEach(m => { m.mat.visible = on; });
+    syncChecks();
+    g.dataset.on = on ? '0' : '1';
+    g.textContent = on ? '모두 끄기' : '모두 켜기';
+    markCustom();
   };
 }
+function markCustom() { qa('.vstep').forEach(b => b.classList.remove('is-on')); }
 
 /* ══════════ 표정 모프 패널 ══════════ */
 function buildMorphPanel() {
