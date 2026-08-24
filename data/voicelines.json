@@ -1,0 +1,422 @@
+[
+ {
+  "id": "vo_01_01",
+  "title_en": "Thoughts: I",
+  "title_ko": "마음의 소리 · Ⅰ",
+  "tx_en": "This nickel-plated pair of scissors weighs about 152 grams. Its max opening angle is roughly 60 degrees. Just enough to cut through thick wool, even with quilted fleece hidden in the seam. I've always been able to estimate numbers like that, even as a little girl. But after that strange and terrifying power descended upon me, I started seeing more. Now, even a single inch feels like an entire world.",
+  "tx_ko": "이 니켈 도금 가위의 무게는 대략 152그램, 최대로 벌릴 수 있는 각도는 60도 정도예요. 두꺼운 모직 원단 한 겹과 그 아래 숨은 양모 안감을 자르기에 딱 알맞은 정도죠. 어릴 적에도 이 정도 수치는 눈으로 보고 바로 알아낼 수 있었어요. 하지만 그 신기하고도 무서운 힘이 찾아온 후로는... 이 두 눈으로 아주 좁은 공간 속에서 훨씬 더 넓은 세상을 볼 수 있게 됐죠",
+  "tx_ja": "このニッケルメッキのハサミは、重さ約152グラム。最大開閉角度は約60度。そして、厚手のメルトン生地を中綿ごと切る鋭さを持っています。こういった情報は、小さい頃から一目で見抜けました。ですが、あの奇妙で恐ろしい力が宿った時、わずかな空間の中に存在する広い世界を、私は初めて目にしました。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0d/Chisa_Thoughts_I.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/e/ec/Chisa_KO_Thoughts_I.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0b/Chisa_JA_Thoughts_I.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/6/64/Chisa_ZH_Thoughts_I.ogg"
+  }
+ },
+ {
+  "id": "vo_01_02",
+  "title_en": "Thoughts: II",
+  "title_ko": "마음의 소리 · Ⅱ",
+  "tx_en": "When I was little, I'd sit on the porch of our house, listening to cicadas while cutting colored paper into goldfish and lucky stars. My mother would be nearby, stitching a yukata. The electric fan creaked as it turned, and slow midday dramas played on the TV... Now that I think about it, summers like that were kind of a luxury.",
+  "tx_ko": "어릴 적엔 늘 고향집 처마 끝에 앉아, 매미 소리를 들으며 색종이를 잘라 금붕어와 별꽃 모양을 만들곤 했어요. 옆에서는 어머니가 유카타를 꿰매고 계셨고, 선풍기는 삐걱거리며 돌아가고, TV에서는 잔잔한 오후 드라마가 흘러나왔죠... 지금 생각해 보면, 사치스러운 여름이었다고 해도 과하지 않은 것 같네요",
+  "tx_ja": "子どもの頃、私は実家の縁側に座って蝉時雨を聞きながら、紙を金魚や星のような小さい花の形に切るのが好きでした。隣には、浴衣を縫う母やギーギー音を立てながら回る扇風機、テレビから流れてくる昼ドラの音……思い返すと、あれ以上に贅沢な夏はなかったですね。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/9/93/Chisa_Thoughts_II.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/d/de/Chisa_KO_Thoughts_II.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3e/Chisa_JA_Thoughts_II.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/2/21/Chisa_ZH_Thoughts_II.ogg"
+  }
+ },
+ {
+  "id": "vo_01_03",
+  "title_en": "Thoughts: III",
+  "title_ko": "마음의 소리 · Ⅲ",
+  "tx_en": "In Honami, summer never ends. But there are no cicadas. No evening wind chimes. Only the endless loop of the Lament... Sometimes, I find old boxes of sugar candy in abandoned convenience stores. Normally, living beings shouldn't feel hunger inside a Sonoro Sphere. But that sugary taste always brings back memories of festivals back home, candy in hand... Sorry, I guess none of that really matters.",
+  "tx_ko": "호나미 시에서는 영원히 여름이 끝나지 않아요. 하지만 이곳은 매미 소리도, 저녁 무렵의 풍경 소리도 없이 그저 반복되는 비명만 있을 뿐이죠... 가끔은 폐허가 된 편의점에서 오래된 별사탕을 한 통 찾아낼 때가 있어요. 이 소노라에 존재하는 생물들은 원래 배고픔을 느끼지 못하지만, 그 진저리 칠 정도로 달콤한 맛을 음미하고 있으면 어릴 적 고향 축제에서 사 먹었던 사탕이 떠오르곤 해요... 아, 죄송합니다. 쓸데없는 얘기를 했네요",
+  "tx_ja": "穂波の夏は、どこまでも続いています。ですが、ここは蝉の鳴き声も、夕暮れ時の風鈴の音もなく、ただ「悲鳴」が繰り返されるだけ……時々、廃墟になったコンビニで、懐かしい星花糖を見つけるんです。このソノラでは空腹を感じるはずがないのに、あの胸焼けするほどの甘さや故郷のお祭りで買った飴の味を思い出して……すみません。こんな話をしても、仕方ないですよね。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0b/Chisa_Thoughts_III.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/1/12/Chisa_KO_Thoughts_III.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e8/Chisa_JA_Thoughts_III.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/b/bb/Chisa_ZH_Thoughts_III.ogg"
+  }
+ },
+ {
+  "id": "vo_01_04",
+  "title_en": "Thoughts: IV",
+  "title_ko": "마음의 소리 · IV",
+  "tx_en": "I... I'm not good with faces. When I was little, people always said I got stuck on the details. But ever since faces started blurring in front of me, I've had to rely on that instead. In this Sonoro, \"death\" is only temporary. Those who disappear always show up again like nothing happened. So I take notes. The grease stain on the shopkeeper's sleeve across the road. The shape of the clerk's hair clip in the convenience store. That way, even if their faces are a blur, I still know who they are.",
+  "tx_ko": "저는... 다른 사람의 얼굴을 잘 기억하지 못하는 편이에요. 어릴 적 주변 사람들은 제가 너무 세세한 것에 집착한다고 했지만, 제 눈앞에서 사람들의 얼굴이 정말 흐릿한 백지처럼 보이게 된 이후로는 오히려 그 점에 의지하게 됐죠. 이 소노라에 존재하는 사람들은... 잠시 「떠나는 것」일 뿐, 시간이 지나면 아무렇지도 않게 같은 장소에 다시 나타나니까요. 그래서 저는 길 건너편 가게 사장님 소매의 기름때나, 편의점 직원의 머리핀 모양 같은 것을 기억해 뒀어요. 사람들의 얼굴이 흐릿해서 구별이 어려워도, 이런 것들을 통해 알아보면 되니까요",
+  "tx_ja": "私……人の顔を覚えるのが苦手なんです。子どもの頃、細かいところにこだわりすぎだと周りの人から言われてました。ですが、このソノラの人たちの顔が文字通りぼやけてしまってからは、むしろそんな自分に助けられています。穂波の住民にとって……「死」とは一時的なもの。しばらくすれば、何事もなかったかのように日常を繰り返します。そのたび、私は向かいのお店に立つ主人の袖についた油染みやコンビニ店員のヘアクリップのデザインを頭に入れています。そうすれば、たとえ顔がはっきりしていなくても、見分けることができますから。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c3/Chisa_Thoughts_IV.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1b/Chisa_KO_Thoughts_IV.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/5/57/Chisa_JA_Thoughts_IV.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/e/ed/Chisa_ZH_Thoughts_IV.ogg"
+  }
+ },
+ {
+  "id": "vo_01_05",
+  "title_en": "Thoughts: V",
+  "title_ko": "마음의 소리 · V",
+  "tx_en": "Since grade school, I was what people called a \"straight-A student.\" Steady grades. Perfect attendance. Neat handwriting. Homework always early. Not a single crease in my textbooks. For most people, that's enough... and I don't mind that. People have always trusted me for those reasons, without ever really knowing me. But with you, it's different. You didn't come to me because you saw \"I was performing well.\" You didn't stay because I seemed \"reliable.\"\nWe've stood together on the edge of this city's collapse, again and again. That's why I wanted to say this. Like you said... we're partners. So of course I trust you, too.",
+  "tx_ko": "아주 어릴 때부터, 저에게는 「우등생」이라는 꼬리표가 붙어 있었어요. 성적은 항상 안정권, 지각이나 결석도 잘 안 하고, 글씨체도 반듯하고, 숙제는 항상 미리 제출하는 데다, 교과서는 한 페이지도 구겨진 흔적이 없게 관리했죠. 대부분의 사람들에게는, 그 정도면 충분하니까요...\n사실 별로 나쁠 건 없어요. 저는 이런 제 모습이 이해보다는 신뢰받기에 더 알맞다는 걸 알고 있었거든요. 그래서 당신 앞에서 이런 이야기들을 털어 놓는 거예요. 당신은 「제가 잘해서」 다가온 것도 아니고, 「제가 믿음직스러워서」 곁에 있어 주시는 것도 아니니까요.\n우리는 이 도시의 붕괴가 임박했을 때, 나란히 서서 몇 번이고 함께 했어요. 당신이 말했듯이 우리는 친구니까... 그러니까, 당신을 믿는 건 당연한 거예요",
+  "tx_ja": "幼い頃から、私は「優等生」のレッテルを貼られてきました。成績は安定してましたし、出席日数も問題なし。丁寧にノートを取り、課題は期限を守り、教科書はきれいな状態を保つ……多くの人からすれば、これで充分でしょう……私も別に、そんな自分が嫌いではありませんでした。それに、深い部分を理解されるよりも、表面を見て信用されるほうが楽ですから。ただ、あなたは別です。\n私が優秀だから、あなたは近づいてきたわけではないでしょう。私がまともそうに見えたから、今も隣にいてくれるわけではないでしょう。\nこの街が崩れ落ちる時、幾度も縁に立ってきましたね。あなたの言う通り、私たちは仲間です――仲間を信じるのは、当然ですから。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/0/04/Chisa_Thoughts_V.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/c/cf/Chisa_KO_Thoughts_V.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/5/53/Chisa_JA_Thoughts_V.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/8/86/Chisa_ZH_Thoughts_V.ogg"
+  }
+ },
+ {
+  "id": "vo_02_01",
+  "title_en": "Chisa's Hobby",
+  "title_ko": "치사의 취미",
+  "tx_en": "Handcrafting, tailoring, plus... mathematics. Yes, I'd say I'm quite good at these.",
+  "tx_ko": "손으로 만드는 일이나, 재단, 그리고 약간의... 계산이랄까요. 음. 이런 것들은 잘하는 편이라고 생각해요",
+  "tx_ja": "手芸と裁縫、それと……計算ですかね。得意と言えるほどのものは、これだけです。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c9/Chisa_Hobby.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/5/57/Chisa_KO_Hobby.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/4/4c/Chisa_JA_Hobby.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c6/Chisa_ZH_Hobby.ogg"
+  }
+ },
+ {
+  "id": "vo_02_02",
+  "title_en": "Chisa's Trouble",
+  "title_ko": "치사의 고민",
+  "tx_en": "It's probably my lack of facial expressions. A lot of people think I'm \"difficult to approach.\" It's not that I dislike anyone. I just don't know... how to approach people in a natural way.",
+  "tx_ko": "무뚝뚝한 표정이 고민일지도 모르겠어요... 사람들이 저를 보면 「다가가기 어렵다」고 말하거든요. 사실 저는 아무도 싫어하지 않는데... 단지 자연스럽게 다가가는 방법을 모를 뿐이에요",
+  "tx_ja": "たぶん、表情が乏しいからでしょうか。よく「壁がある」と言われます。誰かを嫌っているわけではないんです。ただ、人と打ち解ける方法が分からないだけで……",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b6/Chisa_Trouble.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f7/Chisa_KO_Trouble.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/5/58/Chisa_JA_Trouble.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/4/48/Chisa_ZH_Trouble.ogg"
+  }
+ },
+ {
+  "id": "vo_02_03",
+  "title_en": "Favorite Food",
+  "title_ko": "좋아하는 음식",
+  "tx_en": "Chocolate bars... A former classmate gave me one once and said something like, \"Keep frowning like that and your blood sugar's gonna crash.\" Didn't really get the science behind it. But after trying one... I started keeping a few boxes on hand. They're good for a quick energy boost, and they keep my head clear. That's the main reason I have them.\n...But I do have to admit that chocolate is better than strawberry.",
+  "tx_ko": "초콜릿 바를 좋아해요... 예전에 같은 반 친구가 「항상 뚱한 얼굴로 있으면 혈당이 떨어질 수도 있다」면서 준 적이 있어요. 사실 그때 전 그 둘이 무슨 상관이 있는지 잘 몰랐지만, 하나 먹어본 후에는... 가끔 몇 박스씩 가지고 다니게 됐어요.\n급할 때 효율적으로 에너지를 보충할 수도 있고, 한동안 뇌를 맑게 유지할 수 있으니까요. 주목적은 그거예요.\n... 그래도... 딸기보다는 초코맛을 더 좋아한다는 건... 인정할게요",
+  "tx_ja": "チョコレートスティックが好きな理由、ですか……クラスの人から、ちょっと強引に渡されたことがきっかけだったと思います。「いつも真顔だと低血糖になるよ」なんて、よく分からない言葉と一緒に……でも、実際に食べてみたら美味しくて、今では買い置きまでしてますね。すぐエネルギーを補給できるので効率が良いですし、甘い物を食べると頭がスッキリしますから。\n……イチゴ味よりも、チョコの味が好きなのは否定しませんが。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3f/Chisa_Favorite_Food.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/d/dc/Chisa_KO_Favorite_Food.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/d/df/Chisa_JA_Favorite_Food.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/1/17/Chisa_ZH_Favorite_Food.ogg"
+  }
+ },
+ {
+  "id": "vo_02_04",
+  "title_en": "Disliked Food",
+  "title_ko": "싫어하는 음식",
+  "tx_en": "Spicy food. I tasted some Huanglong cuisines while I was at the Black Shores, and they were... unique. It was the first time I was annoyed by my lack of tolerance for spice. But maybe this could change with enough practice? I'll have to try more.",
+  "tx_ko": "매운 음식이요. 검은 해안에 있을 때 황룡 요리를 몇 가지 먹어봤는데... 정말 특이했어요. 매운 걸 잘 먹지 못한다는 게 아쉽게 느껴진 적은 그때가 처음이었을 정도로요.\n그래도 이런 건 훈련으로 바꿀 수 있지 않을까요? 더 많이 시도해 볼게요",
+  "tx_ja": "ブラックショアで味見した瑝瓏の地域料理は個性的で美味しかったんですが、私には辛すぎてあまり食べられず残念でした。あの時、辛い食べ物は苦手なことを初めて本当に悔しく思いましたね。ですが、もしかしたら慣れでどうにかなるような気がしませんか？これからは、どんどん挑戦してみようと思います。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b9/Chisa_Disliked_Food.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/8/83/Chisa_KO_Disliked_Food.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/9/96/Chisa_JA_Disliked_Food.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a4/Chisa_ZH_Disliked_Food.ogg"
+  }
+ },
+ {
+  "id": "vo_02_05",
+  "title_en": "Ideals",
+  "title_ko": "포부와 이상",
+  "tx_en": "...I don't have any grand ideals. I just know that if I see something happening, I can't pretend I didn't. If my abilities can help, even a little, then I'll keep using them.",
+  "tx_ko": "... 거창한 포부 같은 건 없어요. 그저 제가 볼 수 있는 것을 못 본 척할 수는 없다고 생각할 뿐이에요. 제 능력이 조금이라도 도움이 된다면, 앞으로도 계속 사용할 거예요",
+  "tx_ja": "……特別大きな理想があるわけではありません。ただ、知ってしまった以上、見て見ぬふりはできないだけです。もし、この力が少しでも役立つのなら、これからも使い続けようと思います。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/b/be/Chisa_Ideals.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/2/2a/Chisa_KO_Ideals.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/5/53/Chisa_JA_Ideals.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/c/cd/Chisa_ZH_Ideals.ogg"
+  }
+ },
+ {
+  "id": "vo_03_01",
+  "title_en": "Chat: I",
+  "title_ko": "나의 이야기 · Ⅰ",
+  "tx_en": "These small scissors I carry with me were a present from my mother. She used them her entire career as a seamstress. Later, I used them to alter my new school uniform I wore to orientation. It didn't quite fit, so I adjusted it myself. They feel like an invisible thread my parents stitched into me. Silent, yet always pulling me forward.",
+  "tx_ko": "제가 항상 가지고 다니는 작은 가위는 어머니께 받은 선물이에요. 재봉사셨는데, 평생 지니고 다녔다고 하셨죠. 전 이 가위로 입학식 날 새로 받은 교복을 잘랐어요. 사이즈가 잘 맞지 않아서 제가 직접 수선했거든요. 부모님이 저한테 꿰매어 놓으신 보이지 않는 실처럼, 이 가위도 말없이 저를 계속 앞으로 이끌어주고 있어요",
+  "tx_ja": "この肌身離さず持ち歩いているハサミは、母からの贈り物なんです。お針子として過ごしてきた母の生涯を、ずっと見守ってきたと聞きました。入学式で着る制服のサイズが合わなかったんですが、実はこのハサミを使って自分で手直しをしたんです。それもあって、このハサミには目に見えない絆を感じています。なので、言葉は交わせなくても、一緒に運命を切り開いていく大切な存在に気づけばなっていました。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f5/Chisa_Chat_I.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/b/bc/Chisa_KO_Chat_I.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d5/Chisa_JA_Chat_I.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9a/Chisa_ZH_Chat_I.ogg"
+  }
+ },
+ {
+  "id": "vo_03_02",
+  "title_en": "Chat: II",
+  "title_ko": "나의 이야기 · Ⅱ",
+  "tx_en": "The day they put this collar on me, it happened to rain in my hometown. I watched the downpour and rolling stormclouds through the window, and oddly enough, I felt a sense of relief. My Resonance Ability had been restrained. And I told myself, \"Now they won't hate you anymore.\"",
+  "tx_ko": "목에 고리가 채워지던 날, 고향에는 오랜만에 비가 많이 내렸어요. 유리창 너머 휘몰아치는 먹구름과 폭우를 보면서 묘한 평온함을 느꼈죠. 공명의 힘이 속박됐으니까요. 그러고는 스스로에게 이렇게 말했어요. 「이제 더 이상 미움받지 않을 거야」라고",
+  "tx_ja": "首輪を着けられたあの日、故郷では久しぶりの大雨が降っていました。ガラス越しに鉛色の雲が渦巻き、土砂降りの雨が降り注ぐ様子を眺めていた私の心は、不思議なほど穏やかで……共鳴エナジーを確実に抑え込めている実感を味わいながら、これでもう誰からも嫌われずに済むんだと自分に言い聞かせていました。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/4/47/Chisa_Chat_II.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f4/Chisa_KO_Chat_II.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/8/82/Chisa_JA_Chat_II.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1d/Chisa_ZH_Chat_II.ogg"
+  }
+ },
+ {
+  "id": "vo_04_01",
+  "title_en": "About Sumika",
+  "title_ko": "스미카에 관하여",
+  "tx_en": "Sumika was the first to uncover the \"loop pattern\" of the Sonoro. We used to pull all-nighters at the safe house, crunching data. I needed coffee to stay focused, but she always stayed sharp. Honestly, even borderline manic. But I knew how deeply she wanted to understand the truth behind the city's Lament. Maybe that's just the nature of a true researcher. Like she said, even the most dangerous equation still needs someone willing to solve it.",
+  "tx_ko": "스미카는 소노라 뒤에 숨겨진 「리셋 규칙」에 처음으로 닿은 사람이었어요. 같이 거점에서 밤새도록 데이터를 계산할 때, 커피에 의존해서 겨우 뇌를 움직이던 저와는 달리 스미카는 처음부터 끝까지 「흥분」 상태에 가까울 정도로 좋은 컨디션을 유지하고 있었죠. 저는 스미카가 이 도시에 숨겨진 비명의 진실에 대해 엄청난 호기심을 가지고 있다는 걸 알고 있었어요. 아마 연구원으로서의 천성이었겠죠. 스미카의 말처럼, 가장 위험한 방정식도... 누군가는 미분해야 하는 법이니까",
+  "tx_ja": "このソノラの「リセットの法則性」に初めてたどり着いたのが澄夏です。拠点で夜通し計算をしていた時、私はコーヒーがなければ起きていられませんでしたが、彼女はずっと元気でした……いえ、「ハイテンション」と言ったほうが正しいかもしれません。\n彼女が街の裏に潜む「悲鳴」の真実に、すごく強い好奇心を持っているのは分かっていました。たぶん、研究者としての性分なんでしょうね。\n彼女の言う通り、どれだけ危険な数式だとしても、誰かが解かなくてはいけませんから。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/7/77/Chisa_About_Sumika.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/4/46/Chisa_KO_About_Sumika.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/c/ca/Chisa_JA_About_Sumika.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/7/75/Chisa_ZH_About_Sumika.ogg"
+  }
+ },
+ {
+  "id": "vo_04_02",
+  "title_en": "About Namipon",
+  "title_ko": "나미폰에 관하여",
+  "tx_en": "Born of love. Always kind and dependable... That's the Guardian of Honami City. Or at least, that's how it likes to introduce itself. Being around Namipon feels peaceful. Hard to explain. Sometimes it follows me, quietly. I won't notice until it brushes up against me, soft fur against my arm, asking if I want coffee. But there's something more beneath that face. Something vast. Maybe it's just... trying to return the love people once gave it.",
+  "tx_ko": "사랑으로 태어나 늘 친절하고 믿음직한 「호나미 시의 행운의 상징」... 아, 보통 나미폰이 자기 자신을 소개할 때 하는 말이에요. 나미폰과 함께 있으면 저도 모르게 긴장을 풀게 돼요. 제가 눈치채지 못할 만큼 조용히 구석에서 나타나서는, 복슬복슬한 몸을 저한테 부비고는 오늘의 커피가 필요한지 물어보곤 하죠.\n겉모습은 온화하지만, 저한테는 그 안에 숨겨진 더 크고 깊은 뭔가가 느껴져요... 그건 아마, 나미폰이 사람들에게 돌려주고 싶어 하는 「사랑」이라고 생각해요",
+  "tx_ja": "「愛情をいっぱいに受けて生まれた、いつも優しくて頼りになる『穂波の』」――こんな自己紹介を、あの子はよくしていますね。ナミポンと一緒にいると、自然に心が安らいできます。気づいたらそっと近くにいて、ふわふわの体を寄せながら「コーヒーでも淹れようか～？」って聞いてくるんですよ。可愛らしい見た目の奥には、大きくて深い何かを感じます……おそらく、それがみんなに返したいと願っている「愛」なんでしょうね。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/e/eb/Chisa_About_Namipon.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/2/24/Chisa_KO_About_Namipon.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b5/Chisa_JA_About_Namipon.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5a/Chisa_ZH_About_Namipon.ogg"
+  }
+ },
+ {
+  "id": "vo_04_03",
+  "title_en": "About Buling",
+  "title_ko": "복링에 관하여",
+  "tx_en": "She's a very fascinating Taoist. If I remember correctly, she's from Mengzhou, in ? She's always saying odd metaphors and local sayings, and showing off the rare antiques she carries around. Once even offered me a \"Buy two, get 20% off\" deal. Maybe... I'll take her up on it. Just to see.",
+  "tx_ko": "정말 흥미로운... 도사예요. 몽주 사람이라고 했던가요? 저한테 재미있는 말을 자주 들려주고, 항상 가지고 다니는 기묘한 보물들도 소개해 줬죠. 심지어, 두 개 사면 20%나 깎아주겠다고 약속하기도 했어요. 어쩌면... 한번 사보는 것도 괜찮을 것 같아요",
+  "tx_ja": "とても興味深い、道士の方ですね……確か、出身はの夢州だとか。面白い話し方で手持ちの珍しい品を紹介してくれたり、二つ買えば二割引にする約束をしてくれたりしました。今度……試しに何か買ってみるのも良いかもしれませんね。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/6/66/Chisa_About_Buling.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/7/79/Chisa_KO_About_Buling.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/1/16/Chisa_JA_About_Buling.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/8/87/Chisa_ZH_About_Buling.ogg"
+  }
+ },
+ {
+  "id": "vo_04_04",
+  "title_en": "About Shorekeeper",
+  "title_ko": "파수인에 관하여",
+  "tx_en": "Shorekeeper helped me a lot while I've been recovering at the Black Shores. It took me a while to settle in, but in time, I started to feel the kindness there. Shorekeeper once took me to the beach at the Haven of Sprouts to see the stars. They were infinite. And I found myself thinking... Sumika must've stood beneath that same sky many times, imagining the future she hoped to reach.",
+  "tx_ko": "검은 해안에서 치료받는 동안 파수인이 절 많이 도와줬어요. 처음에는 익숙하지 않았지만, 곧 검은 해안에서 따뜻한 마음을 많이 느낄 수 있었죠. 파수인은 저를 스프라우트 존 해변으로 데려가 별이 가득한 밤하늘을 보여주기도 했어요. 그렇게 드넓은 하늘 아래서, 셀 수 없이 많은 별이 빛나는 밤에... 스미카도 자신만의 미래를 바라봤겠죠",
+  "tx_ja": "ブラックショアで静養していた期間、ショアキーパーさんにはとてもお世話になったんです。初めての地で慣れないことばかりでしたが、その分、たくさんの優しさに触れられました。ショアキーパーさんは一度、スプラウツの地の浜辺に私を連れ出して、満天の星を見せてくれたんですよ。果てしなく広がる星空……きっと、澄夏は数え切れないくらい、ここで自分の未来を想像していたんだろうなと、そう思いました。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d7/Chisa_About_Shorekeeper.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/4/4a/Chisa_KO_About_Shorekeeper.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1a/Chisa_JA_About_Shorekeeper.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/d/de/Chisa_ZH_About_Shorekeeper.ogg"
+  }
+ },
+ {
+  "id": "vo_05_01",
+  "title_en": "Birthday Wishes",
+  "title_ko": "생일 축하",
+  "tx_en": "A birthday... isn't just the anniversary of your birth. It's also a reminder that you're still here. For me, that alone makes it important.\nSo... please continue to stay healthy, level-headed, endlessly capable, and someone others can count on. May each of your days pass smoothly, and may there always be someone walking alongside you.\n—That's the most concise and practical birthday wish I could come up with.",
+  "tx_ko": "생일이라... 단순히 태어난 것을 기념하는 의미를 넘어, 당신이 여전히 여기에 존재한다는 것을 확인하는 날이기도 하죠. 저한테는 그것만으로도 충분히 중요한 날이고요.\n그러니까... 계속해서 건강하고 침착하게, 문제를 능숙하게 해결하면서 늘 사람들한테 안심을 주는 존재로 있어 주세요. 당신의 매일이 언제나 평화롭길, 항상 누군가가 당신의 곁에서 함께 걸어가 주길 기도할게요...\n이게 제가 생각해 낼 수 있는 가장 간결하면서도 깔끔한 축복의 말이에요",
+  "tx_ja": "誕生日、ですか……生まれたことを記念するだけではなく、あなたのそばにいることを実感できる日。私にとって、それだけで充分です。\nなので……どうか元気で健康に、穏やかに過ごせますように。そして、これからも心強い存在でいてください。あなたの毎日が、幸せでありますように。隣には、いつも仲間がいますように。\n――これが、今の私に思いつく素直なお祝いの言葉です。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/4/4d/Chisa_Birthday_Wishes.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/9/97/Chisa_KO_Birthday_Wishes.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/0/09/Chisa_JA_Birthday_Wishes.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/0/06/Chisa_ZH_Birthday_Wishes.ogg"
+  }
+ },
+ {
+  "id": "vo_06_01",
+  "title_en": "Idle: I",
+  "title_ko": "대기 · Ⅰ",
+  "tx_en": "Hmm… That's not it. It's this one.",
+  "tx_ko": "음... 아니죠. 이 사람이에요. 그렇죠?",
+  "tx_ja": "うーん……この人ではないような……おそらく、犯人はこの人ですね。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e9/Chisa_Idle_I.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/9/96/Chisa_KO_Idle_I.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/f/fd/Chisa_JA_Idle_I.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/5/57/Chisa_ZH_Idle_I.ogg"
+  }
+ },
+ {
+  "id": "vo_06_02",
+  "title_en": "Idle: II",
+  "title_ko": "대기 · Ⅱ",
+  "tx_en": "(Effort Sound)",
+  "tx_ko": "(호흡)",
+  "tx_ja": "台詞なし。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/b/bf/Chisa_Idle_II.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c3/Chisa_KO_Idle_II.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/3/37/Chisa_JA_Idle_II.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/5/52/Chisa_ZH_Idle_II.ogg"
+  }
+ },
+ {
+  "id": "vo_06_03",
+  "title_en": "Idle: III",
+  "title_ko": "대기 · Ⅲ",
+  "tx_en": "…Off you go then.",
+  "tx_ko": "... 가 봐",
+  "tx_ja": "ふふっ、気をつけるんですよ。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d0/Chisa_Idle_III.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/6/68/Chisa_KO_Idle_III.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c8/Chisa_JA_Idle_III.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/2/2c/Chisa_ZH_Idle_III.ogg"
+  }
+ },
+ {
+  "id": "vo_07_01",
+  "title_en": "Self-Introduction",
+  "title_ko": "자기 소개",
+  "tx_en": "Kuchiba Chisa. Tactical Development Program, Department of Engineering, Startorch Academy. Forte Specialization: structural dissection... Apologies, this might not be the time for formalities.",
+  "tx_ko": "쿠치바 치사. 스타토치 아카데미 공학부, 전술 개발 학과. 구조 해석에 특화된 공명 어빌리티를 가지고 있습니다... 죄송해요, 이렇게 딱딱하게 할 필요는 없었던 것 같네요",
+  "tx_ja": "朽葉千咲、スタートーチ学園工学部、戦術開発学科群所属です。共鳴能力は、構造の解析が得意で……すみません、少し堅苦しかったみたいですね。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/2/2f/Chisa_Self-Introduction.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/8/85/Chisa_KO_Self-Introduction.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/7/7c/Chisa_JA_Self-Introduction.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a5/Chisa_ZH_Self-Introduction.ogg"
+  }
+ },
+ {
+  "id": "vo_07_02",
+  "title_en": "Greeting",
+  "title_ko": "시작의 연주",
+  "tx_en": "I will… sever this deadlock.",
+  "tx_ko": "이 난국을... 잘라내겠어요",
+  "tx_ja": "この閉ざされた世界は、私が切り開きましょう！",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/6/6b/Chisa_Greeting.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f1/Chisa_KO_Greeting.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/d/da/Chisa_JA_Greeting.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/d/da/Chisa_ZH_Greeting.ogg"
+  }
+ },
+ {
+  "id": "vo_08_01",
+  "title_en": "Join Team: I",
+  "title_ko": "파티 가입 · Ⅰ",
+  "tx_en": "I'll cut to the chase.",
+  "tx_ko": "바로 산산조각내죠",
+  "tx_ja": "一瞬で終わらせてみせます。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/9/91/Chisa_Join_Team_I.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c9/Chisa_KO_Join_Team_I.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/8/80/Chisa_JA_Join_Team_I.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/d/dd/Chisa_ZH_Join_Team_I.ogg"
+  }
+ },
+ {
+  "id": "vo_08_02",
+  "title_en": "Join Team: II",
+  "title_ko": "파티 가입 · Ⅱ",
+  "tx_en": "Time to trim things down.",
+  "tx_ko": "재단, 개시",
+  "tx_ja": "裁断を始めます。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/c/cc/Chisa_Join_Team_II.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/d/db/Chisa_KO_Join_Team_II.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/0/03/Chisa_JA_Join_Team_II.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3b/Chisa_ZH_Join_Team_II.ogg"
+  }
+ },
+ {
+  "id": "vo_08_03",
+  "title_en": "Join Team: III",
+  "title_ko": "파티 가입 · Ⅲ",
+  "tx_en": "Let's work together again.",
+  "tx_ko": "다시 함께 싸워요",
+  "tx_ja": "一緒に戦いましょう。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c2/Chisa_Join_Team_III.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/c/ce/Chisa_KO_Join_Team_III.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/8/80/Chisa_JA_Join_Team_III.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/6/64/Chisa_ZH_Join_Team_III.ogg"
+  }
+ },
+ {
+  "id": "vo_09_01",
+  "title_en": "Ascension: I",
+  "title_ko": "돌파 · Ⅰ",
+  "tx_en": "...The threads. I see them more clearly now.",
+  "tx_ko": "... 현이, 더 또렷해졌어요",
+  "tx_ja": "……目に映る弦が、また少し鮮明になりました。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a3/Chisa_Ascension_I.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/e/ea/Chisa_KO_Ascension_I.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0a/Chisa_JA_Ascension_I.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d0/Chisa_ZH_Ascension_I.ogg"
+  }
+ },
+ {
+  "id": "vo_09_02",
+  "title_en": "Ascension: II",
+  "title_ko": "돌파 · Ⅱ",
+  "tx_en": "The structure is more complex, but also... more distinctly identifiable.",
+  "tx_ko": "구조는 더 복잡해졌지만... 더 명확히 식별할 수 있게 됐어요",
+  "tx_ja": "構造は複雑になりましたが、前よりもはっきりと見えています。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/8/8f/Chisa_Ascension_II.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0b/Chisa_KO_Ascension_II.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/2/27/Chisa_JA_Ascension_II.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/c/cb/Chisa_ZH_Ascension_II.ogg"
+  }
+ },
+ {
+  "id": "vo_09_03",
+  "title_en": "Ascension: III",
+  "title_ko": "돌파 · Ⅲ",
+  "tx_en": "My Resonance energy continues to expand... Don't worry, I can control it.",
+  "tx_ko": "공명 어빌리티가 계속 뻗어나가고 있네요... 괜찮아요, 제어할 수 있어요",
+  "tx_ja": "共鳴能力が、また成長を……大丈夫です、この程度なら制御できますから。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/f/fa/Chisa_Ascension_III.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9a/Chisa_KO_Ascension_III.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/0/02/Chisa_JA_Ascension_III.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e3/Chisa_ZH_Ascension_III.ogg"
+  }
+ },
+ {
+  "id": "vo_09_04",
+  "title_en": "Ascension: IV",
+  "title_ko": "돌파 · IV",
+  "tx_en": "This wasn't by chance, nor was it coincidental. The deadlock has cracked. We'll fight alongside each other... just like before.",
+  "tx_ko": "이건 어떤 우연의 일치로 생긴 게 아니에요. 난국에 균열이 생겼으니, 이번에도... 저와 함께 싸우실 거죠?",
+  "tx_ja": "これは偶然でも、巡り合わせでもありません。閉ざされた運命に風穴が空いた以上、今回も背中を預け合いましょう。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/5/57/Chisa_Ascension_IV.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/5/52/Chisa_KO_Ascension_IV.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/1/17/Chisa_JA_Ascension_IV.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/6/69/Chisa_ZH_Ascension_IV.ogg"
+  }
+ },
+ {
+  "id": "vo_09_05",
+  "title_en": "Ascension: V",
+  "title_ko": "돌파 · V",
+  "tx_en": "No matter where this leads… This battle, I'm all in.",
+  "tx_ko": "이 싸움이 어디로 이어지든지, 최선을 다해 맞이할게요",
+  "tx_ja": "道がどこへ通じていようと、この一戦に全力をかけます。",
+  "audio": {
+   "en": "https://static.wikia.nocookie.net/wutheringwaves/images/a/ae/Chisa_Ascension_V.ogg",
+   "ko": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f1/Chisa_KO_Ascension_V.ogg",
+   "ja": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1a/Chisa_JA_Ascension_V.ogg",
+   "zh": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b4/Chisa_ZH_Ascension_V.ogg"
+  }
+ }
+]

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>치사 · CHISA — 명조 : 워더링 웨이브</title>
+<meta name="description" content="명조(Wuthering Waves)의 공명자 치사(千咲) 팬 아카이브. 프로필, 성격, 캐릭터 스토리, 4개 국어 음성, 공식 영상, 일러스트 갤러리.">
+<meta name="theme-color" content="#0a0607">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230a0607'/><text y='24' x='16' text-anchor='middle' font-size='20' fill='%23e0243c'>千</text></svg>">
+</head>
+<body>
+
+<!-- ══ 인트로 베일 ══ -->
+<div id="veil" class="veil" aria-hidden="true">
+  <div class="veil__inner">
+    <svg class="veil__thread" viewBox="0 0 400 2" preserveAspectRatio="none"><line x1="0" y1="1" x2="400" y2="1"/></svg>
+    <div class="veil__kanji">千咲</div>
+    <div class="veil__sub">해체의 눈</div>
+  </div>
+</div>
+
+<!-- ══ 배경 레이어 ══ -->
+<div class="bg" aria-hidden="true">
+  <div class="bg__glow bg__glow--a"></div>
+  <div class="bg__glow bg__glow--b"></div>
+  <div class="bg__grid"></div>
+  <div class="bg__grain"></div>
+  <svg class="bg__threads" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+    <path d="M-50 180 C 300 60, 700 320, 1500 140" />
+    <path d="M-50 460 C 380 620, 820 240, 1500 520" />
+    <path d="M-50 740 C 300 640, 900 880, 1500 700" />
+  </svg>
+</div>
+
+<!-- ══ 내비게이션 ══ -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#hero">
+    <span class="nav__kanji">千咲</span>
+    <span class="nav__name">CHISA</span>
+  </a>
+  <nav class="nav__links" aria-label="섹션 이동">
+    <a href="#hero" data-nav="hero">개요</a>
+    <a href="#profile" data-nav="profile">프로필</a>
+    <a href="#persona" data-nav="persona">성격</a>
+    <a href="#story" data-nav="story">이야기</a>
+    <a href="#voice" data-nav="voice">목소리</a>
+    <a href="#video" data-nav="video">영상</a>
+    <a href="#gallery" data-nav="gallery">갤러리</a>
+  </nav>
+  <button class="nav__toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<main>
+
+<!-- ══════════ HERO ══════════ -->
+<section id="hero" class="hero section" data-section>
+  <div class="hero__head">
+    <p class="eyebrow">WUTHERING WAVES · RESONATOR FILE 017</p>
+    <h1 class="hero__title">
+      <span class="hero__title-kanji">千咲</span>
+      <span class="hero__title-ko">치&nbsp;사</span>
+    </h1>
+    <p class="hero__subtitle" id="heroTagline"></p>
+  </div>
+
+  <div class="stage" id="stage">
+    <!-- 좌측 카드 -->
+    <div class="stage__col stage__col--l">
+      <article class="ocard" data-tilt data-reveal style="--d:.05s">
+        <h3 class="ocard__t"><i class="dot"></i>기본 정보</h3>
+        <dl class="ocard__dl" id="cardBasics"></dl>
+      </article>
+      <article class="ocard" data-tilt data-reveal style="--d:.15s">
+        <h3 class="ocard__t"><i class="dot"></i>포르테 · 해체의 눈</h3>
+        <p class="ocard__p" id="cardPower"></p>
+        <a class="ocard__more" href="#profile">감정 보고서 열람 →</a>
+      </article>
+      <article class="ocard" data-tilt data-reveal style="--d:.25s">
+        <h3 class="ocard__t"><i class="dot"></i>외형</h3>
+        <p class="ocard__p" id="cardLook"></p>
+      </article>
+    </div>
+
+    <!-- 중앙 대형 이미지 -->
+    <div class="stage__center" data-reveal>
+      <div class="portrait" id="portrait">
+        <div class="portrait__ring"></div>
+        <div class="portrait__ring portrait__ring--2"></div>
+        <div class="portrait__sheen"></div>
+        <img id="portraitImg"
+             src="https://static.wikia.nocookie.net/wutheringwaves/images/8/8a/Chisa_Full_Sprite.png"
+             alt="치사 공식 전신 일러스트">
+        <div class="portrait__cut"></div>
+      </div>
+      <div class="portrait__pick" id="portraitPick" role="group" aria-label="중앙 이미지 전환"></div>
+      <blockquote class="hero__quote">
+        <span class="hero__quote-mark">「</span>
+        <span id="heroQuote"></span>
+        <span class="hero__quote-mark">」</span>
+        <cite>— 치사</cite>
+      </blockquote>
+      <div class="hero__chips" id="heroChips"></div>
+    </div>
+
+    <!-- 우측 카드 -->
+    <div class="stage__col stage__col--r">
+      <article class="ocard" data-tilt data-reveal style="--d:.1s">
+        <h3 class="ocard__t"><i class="dot"></i>성격</h3>
+        <p class="ocard__p" id="cardPersona"></p>
+        <a class="ocard__more" href="#persona">여섯 가지 단면 →</a>
+      </article>
+      <article class="ocard" data-tilt data-reveal style="--d:.2s">
+        <h3 class="ocard__t"><i class="dot"></i>전투 스타일</h3>
+        <p class="ocard__p" id="cardCombat"></p>
+        <a class="ocard__more" href="#profile">스킬 전체 보기 →</a>
+      </article>
+      <article class="ocard ocard--art" data-tilt data-reveal style="--d:.3s">
+        <h3 class="ocard__t"><i class="dot"></i>일러스트</h3>
+        <div class="minigal" id="cardMiniGal"></div>
+        <a class="ocard__more" href="#gallery">갤러리 전체 →</a>
+      </article>
+    </div>
+  </div>
+
+  <a class="scrolldown" href="#profile" aria-label="아래로"><span></span></a>
+</section>
+
+<!-- ══════════ 프로필 ══════════ -->
+<section id="profile" class="section" data-section>
+  <header class="shead" data-reveal>
+    <span class="shead__num">01</span>
+    <h2 class="shead__t">프로필<em>PROFILE</em></h2>
+    <p class="shead__d">아시노하라 · 네오 호나미 공명자 관측 센터 기록</p>
+  </header>
+
+  <div class="grid-2">
+    <div class="panel" data-reveal>
+      <h3 class="panel__t">신상 기록</h3>
+      <table class="ptable" id="profileTable"></table>
+      <h3 class="panel__t panel__t--mt">성우</h3>
+      <ul class="valist" id="vaList"></ul>
+    </div>
+
+    <div class="panel panel--report" data-reveal>
+      <h3 class="panel__t">포르테 감정 보고서</h3>
+      <pre class="report__meta" id="reportMeta"></pre>
+      <ul class="report__lines" id="reportLines"></ul>
+      <div class="report__stamp">高危 · HIGH RISK</div>
+    </div>
+  </div>
+
+  <div class="panel panel--wide" data-reveal>
+    <h3 class="panel__t">전투 · 포르테 회로</h3>
+    <p class="panel__lead" id="combatConcept"></p>
+    <div class="skills" id="skillList"></div>
+  </div>
+</section>
+
+<!-- ══════════ 성격 · 외형 ══════════ -->
+<section id="persona" class="section" data-section>
+  <header class="shead" data-reveal>
+    <span class="shead__num">02</span>
+    <h2 class="shead__t">성격과 특징<em>CHARACTER</em></h2>
+    <p class="shead__d">분해할 수 있는 것과, 끝내 분해할 수 없는 것</p>
+  </header>
+
+  <p class="bigquote" data-reveal id="personaSummary"></p>
+
+  <div class="traits" id="traitList"></div>
+
+  <div class="grid-2 grid-2--look">
+    <div class="panel" data-reveal>
+      <h3 class="panel__t">외형</h3>
+      <p class="panel__lead" id="lookSummary"></p>
+      <ul class="ticks" id="lookPoints"></ul>
+    </div>
+    <div class="panel" data-reveal>
+      <h3 class="panel__t">소중한 물건</h3>
+      <div class="items" id="itemList"></div>
+    </div>
+  </div>
+
+  <div class="panel panel--wide" data-reveal>
+    <h3 class="panel__t">인연</h3>
+    <div class="rels" id="relList"></div>
+    <h3 class="panel__t panel__t--mt">사소한 사실</h3>
+    <ul class="ticks" id="triviaList"></ul>
+  </div>
+</section>
+
+<!-- ══════════ 이야기 ══════════ -->
+<section id="story" class="section" data-section>
+  <header class="shead" data-reveal>
+    <span class="shead__num">03</span>
+    <h2 class="shead__t">캐릭터 스토리<em>STORIES</em></h2>
+    <p class="shead__d">끝나지 않는 여름과, 그 여름을 끊어낸 가위</p>
+  </header>
+  <div class="stories" id="storyList"></div>
+</section>
+
+<!-- ══════════ 목소리 ══════════ -->
+<section id="voice" class="section" data-section>
+  <header class="shead" data-reveal>
+    <span class="shead__num">04</span>
+    <h2 class="shead__t">치사의 목소리<em>VOICE</em></h2>
+    <p class="shead__d">한국어 · 일본어 · 영어 · 중국어 4개 국어 실제 게임 음성 30종</p>
+  </header>
+
+  <div class="voice__bar" data-reveal>
+    <div class="tabs" id="voiceLangs" role="tablist">
+      <button class="tab is-on" data-lang="ko" role="tab">한국어<em>이주은</em></button>
+      <button class="tab" data-lang="ja" role="tab">日本語<em>金元寿子</em></button>
+      <button class="tab" data-lang="en" role="tab">English<em>Leader Looi</em></button>
+      <button class="tab" data-lang="zh" role="tab">中文<em>赵灵泽</em></button>
+    </div>
+    <div class="voice__ctl">
+      <button class="btn btn--ghost" id="voicePlayAll"><span class="ico-play"></span>전체 순차 재생</button>
+      <button class="btn btn--ghost" id="voiceShuffle">랜덤 한 마디</button>
+    </div>
+  </div>
+
+  <div class="nowplay" id="nowPlay" hidden>
+    <div class="nowplay__wave" id="nowWave"></div>
+    <div class="nowplay__meta">
+      <strong id="nowTitle"></strong>
+      <span id="nowLang"></span>
+    </div>
+    <button class="nowplay__stop" id="nowStop" aria-label="정지">■</button>
+  </div>
+
+  <div class="vlines" id="voiceList"></div>
+  <audio id="audio" preload="none"></audio>
+</section>
+
+<!-- ══════════ 영상 ══════════ -->
+<section id="video" class="section" data-section>
+  <header class="shead" data-reveal>
+    <span class="shead__num">05</span>
+    <h2 class="shead__t">공식 영상<em>MOVIES</em></h2>
+    <p class="shead__d">쿠로 게임즈 공식 채널 · 캐릭터 PV, 전투 시연, 테마 음악</p>
+  </header>
+  <div class="videos" id="videoList"></div>
+</section>
+
+<!-- ══════════ 갤러리 ══════════ -->
+<section id="gallery" class="section" data-section>
+  <header class="shead" data-reveal>
+    <span class="shead__num">06</span>
+    <h2 class="shead__t">갤러리<em>GALLERY</em></h2>
+    <p class="shead__d">공식 일러스트 &amp; 부-루 아카이브에서 실시간으로 불러오는 팬아트</p>
+  </header>
+
+  <div class="gbar" data-reveal>
+    <div class="tabs" id="galTabs" role="tablist">
+      <button class="tab is-on" data-gal="fan" role="tab">팬아트</button>
+      <button class="tab" data-gal="official" role="tab">공식 아트</button>
+    </div>
+    <div class="gbar__filters" id="fanFilters">
+      <label class="sel">
+        <span>정렬</span>
+        <select id="fSort">
+          <option value="score">인기순</option>
+          <option value="new">최신순</option>
+          <option value="random">무작위</option>
+        </select>
+      </label>
+      <label class="sel">
+        <span>등급</span>
+        <select id="fRating">
+          <option value="safe">전체 이용가</option>
+          <option value="all">모두 보기</option>
+        </select>
+      </label>
+      <label class="sel">
+        <span>소스</span>
+        <select id="fSource">
+          <option value="both">Safebooru + Danbooru</option>
+          <option value="safebooru">Safebooru</option>
+          <option value="danbooru">Danbooru</option>
+        </select>
+      </label>
+      <button class="btn btn--ghost" id="fReload">다시 불러오기</button>
+    </div>
+  </div>
+
+  <p class="gstatus" id="gStatus"></p>
+  <div class="masonry" id="galGrid"></div>
+  <div class="gsentinel" id="gSentinel"></div>
+  <button class="btn btn--wide" id="gMore" hidden>더 불러오기</button>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot__thread"></div>
+  <p class="foot__q">「 이 교착을... 내가 끊어낼게요. 」</p>
+  <p class="foot__c">
+    개인 감상용 팬 페이지입니다. 치사(千咲)와 명조(Wuthering Waves)의 모든 저작권은
+    <strong>KURO GAMES</strong>에 있습니다.<br>
+    공식 아트·음성은 Wuthering Waves Wiki, 팬아트는 Safebooru / Danbooru API에서 실시간으로 불러오며 각 저작권은 원작자에게 있습니다.
+  </p>
+</footer>
+
+<!-- ══ 라이트박스 ══ -->
+<div class="lbox" id="lbox" hidden>
+  <button class="lbox__x" id="lboxX" aria-label="닫기">✕</button>
+  <button class="lbox__nav lbox__nav--prev" id="lboxPrev" aria-label="이전">‹</button>
+  <button class="lbox__nav lbox__nav--next" id="lboxNext" aria-label="다음">›</button>
+  <figure class="lbox__fig">
+    <img id="lboxImg" alt="">
+    <figcaption id="lboxCap"></figcaption>
+  </figure>
+</div>
+
+<script src="assets/js/app.js"></script>
+<script src="assets/js/voice.js"></script>
+<script src="assets/js/gallery.js"></script>
+</body>
+</html>

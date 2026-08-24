@@ -1,0 +1,205 @@
+[
+ {
+  "id": "Chisa_Splash_Art.png",
+  "title": "스플래시 아트",
+  "desc": "공식 컨빈 스플래시 일러스트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/2/2f/Chisa_Splash_Art.png",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Convene_Draw.png",
+  "title": "컨빈 연출",
+  "desc": "획득 연출 일러스트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9f/Chisa_Convene_Draw.png",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Convene_Still.png",
+  "title": "컨빈 스틸",
+  "desc": "획득 연출 스틸컷",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/f/fd/Chisa_Convene_Still.png",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Card.jpg",
+  "title": "네임카드",
+  "desc": "공식 네임카드 아트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/c/ca/Chisa_Card.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Character_Sheet.jpg",
+  "title": "캐릭터 시트",
+  "desc": "공식 3면 설정화",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/6/69/Chisa_Character_Sheet.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Character_Sheet_Alt.jpg",
+  "title": "캐릭터 시트 · Alt",
+  "desc": "설정화 변형본",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/7/79/Chisa_Character_Sheet_Alt.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Full_Sprite.png",
+  "title": "전신 스프라이트",
+  "desc": "인게임 전신 도트/스프라이트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/8/8a/Chisa_Full_Sprite.png",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Resonator_Showcase_Art.png",
+  "title": "공명자 쇼케이스",
+  "desc": "쇼케이스 PV 키 아트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9d/Chisa_Resonator_Showcase_Art.png",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Profile_Header.jpg",
+  "title": "프로필 헤더",
+  "desc": "공식 프로필 상단 아트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/6/6d/Chisa_Profile_Header.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Profile_About.jpg",
+  "title": "프로필 · 소개",
+  "desc": "공식 프로필 소개 컷",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d5/Chisa_Profile_About.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Profile_Appearance.jpg",
+  "title": "프로필 · 외형",
+  "desc": "공식 프로필 외형 컷",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/4/4f/Chisa_Profile_Appearance.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Profile_Anecdotes.jpg",
+  "title": "프로필 · 일화",
+  "desc": "공식 프로필 일화 컷",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/d/de/Chisa_Profile_Anecdotes.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Profile_Evaluation_Report.jpg",
+  "title": "감정 보고서",
+  "desc": "포르테 감정 보고서 컷",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/8/82/Chisa_Profile_Evaluation_Report.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Profile_Footer.jpg",
+  "title": "프로필 푸터",
+  "desc": "공식 프로필 하단 아트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9c/Chisa_Profile_Footer.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_2025-05-30.jpg",
+  "title": "공식 일러스트 2025.05.30",
+  "desc": "공식 SNS 일러스트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b4/Chisa_2025-05-30.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_2026-02-06.jpg",
+  "title": "공식 일러스트 2026.02.06",
+  "desc": "공식 SNS 일러스트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/e/eb/Chisa_2026-02-06.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Christmas_2025-12-24.jpg",
+  "title": "크리스마스 2025",
+  "desc": "공식 크리스마스 일러스트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/8/8f/Chisa_Christmas_2025-12-24.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Lynae_2026-06-04.jpg",
+  "title": "치사 & 리네",
+  "desc": "공식 SNS 일러스트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c7/Chisa_Lynae_2026-06-04.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Secret_Tunes_2025-12-01.jpg",
+  "title": "시크릿 튠즈",
+  "desc": "공식 이벤트 일러스트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/2/27/Chisa_Secret_Tunes_2025-12-01.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa's_Deluxe_Outfit_\"Peach_Parfait\"",
+  "title": "디럭스 스킨 · 피치 파르페",
+  "desc": "공식 스킨 일러스트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/6/61/Chisa%27s_Deluxe_Outfit_%22Peach_Parfait%22",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_JP_VA_Announcement.jpg",
+  "title": "일본어 성우 공개",
+  "desc": "JP 성우 발표 아트",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5d/Chisa_JP_VA_Announcement.jpg",
+  "kind": "art"
+ },
+ {
+  "id": "Chisa_Profile_Character_Menu.gif",
+  "title": "캐릭터 메뉴",
+  "desc": "인게임 모션",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/0/09/Chisa_Profile_Character_Menu.gif",
+  "kind": "motion"
+ },
+ {
+  "id": "Chisa_Profile_Convene_Animation.gif",
+  "title": "컨빈 애니메이션",
+  "desc": "인게임 모션",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/4/44/Chisa_Profile_Convene_Animation.gif",
+  "kind": "motion"
+ },
+ {
+  "id": "Chisa_Profile_Idle_Animation.gif",
+  "title": "대기 모션",
+  "desc": "인게임 모션",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f7/Chisa_Profile_Idle_Animation.gif",
+  "kind": "motion"
+ },
+ {
+  "id": "Chisa_Profile_Resonance_Liberation.gif",
+  "title": "공명 해방",
+  "desc": "인게임 모션",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/6/6d/Chisa_Profile_Resonance_Liberation.gif",
+  "kind": "motion"
+ },
+ {
+  "id": "Chisa_Sticker_Slice_of_Life_12_01.gif",
+  "title": "스티커 01",
+  "desc": "공식 이모티콘",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/2/2f/Chisa_Sticker_Slice_of_Life_12_01.gif",
+  "kind": "motion"
+ },
+ {
+  "id": "Chisa_Sticker_Slice_of_Life_12_02.gif",
+  "title": "스티커 02",
+  "desc": "공식 이모티콘",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/f/fa/Chisa_Sticker_Slice_of_Life_12_02.gif",
+  "kind": "motion"
+ },
+ {
+  "id": "Chisa_Sticker_Slice_of_Life_12_03.gif",
+  "title": "스티커 03",
+  "desc": "공식 이모티콘",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c1/Chisa_Sticker_Slice_of_Life_12_03.gif",
+  "kind": "motion"
+ },
+ {
+  "id": "Chisa_Sticker_Slice_of_Life_12_04.gif",
+  "title": "스티커 04",
+  "desc": "공식 이모티콘",
+  "url": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c5/Chisa_Sticker_Slice_of_Life_12_04.gif",
+  "kind": "motion"
+ }
+]
