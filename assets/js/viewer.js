@@ -425,6 +425,29 @@ async function intake(fileList) {
   await loadPMX(pmx[0]);
 }
 
+/* ══════════ 저장소에 올려 둔 모델 불러오기 ══════════ */
+const REPO_MODELS = [
+  { path: 'models/chisa_base_v1.03.zip', name: 'chisa_base_v1.03.zip', label: '교복' },
+  { path: 'models/chisa_swimsuit.zip',   name: 'chisa_swimsuit.zip',   label: '수영복' }
+];
+
+async function loadFromRepo() {
+  initScene();
+  const files = [];
+  for (const m of REPO_MODELS) {
+    say(`${m.label} 모델을 내려받는 중…`);
+    try {
+      const res = await fetch(m.path);
+      if (!res.ok) throw new Error(res.status);
+      files.push(new File([await res.blob()], m.name));
+    } catch (e) {
+      say(`${m.label} 모델을 받지 못했습니다 (${e.message}). zip 을 직접 끌어다 놓아 주세요.`);
+      return;
+    }
+  }
+  await intake(files);
+}
+
 /* ══════════ UI 배선 ══════════ */
 export function mountViewer() {
   const drop = q('#vwDrop'), input = q('#vwFile');
@@ -440,6 +463,11 @@ export function mountViewer() {
     e.preventDefault(); drop.classList.remove('is-over');
   }));
   drop.addEventListener('drop', e => intake(e.dataTransfer.files));
+  drop.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); input.click(); }
+  });
+
+  q('#vwRepo')?.addEventListener('click', loadFromRepo);
 
   const toggle = (id, fn) => q(id)?.addEventListener('click', e => {
     const on = e.currentTarget.classList.toggle('is-on');
