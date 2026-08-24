@@ -1,0 +1,106 @@
+{
+ "viewer": [
+  {
+   "uid": "8192aa7517ce4125a1afb8b593af4fc1",
+   "title": "Chisa — Wuthering Waves",
+   "author": "Hollowlight",
+   "license": "CC Attribution",
+   "faces": 95786,
+   "url": "https://sketchfab.com/3d-models/chisa-wuthering-waves-8192aa7517ce4125a1afb8b593af4fc1",
+   "thumb": "https://media.sketchfab.com/models/8192aa7517ce4125a1afb8b593af4fc1/thumbnails/8a7b3bab95774a7398c7618deeff0086/37895f9df3f94158b1d36187a50e4a9d.jpeg",
+   "note": "기본 교복 차림 전신. 브라우저에서 바로 돌려볼 수 있고 glTF·FBX로 내려받을 수 있다."
+  },
+  {
+   "uid": "7e16d31a04994b829e10a90cb569698e",
+   "title": "Chisa — Graceful Fighter",
+   "author": "naziafaiz",
+   "license": "CC Attribution",
+   "faces": 95786,
+   "url": "https://sketchfab.com/3d-models/chisa-wuthering-waves-character-graceful-fighter-7e16d31a04994b829e10a90cb569698e",
+   "thumb": "https://media.sketchfab.com/models/7e16d31a04994b829e10a90cb569698e/thumbnails/26b52405668341eebe5eb0a727e42f38/65441178081c441a8c4cba075b7a8541.jpeg",
+   "note": "NekoPixil의 FBX 추출본을 Sketchfab에 올린 것. 위 모델과 같은 메시다."
+  },
+  {
+   "uid": "917e3d4fb73a47229d713867bc4d2a6c",
+   "title": "Chisa Model — Uni Project (FanMade)",
+   "author": "Reece Wakelin",
+   "license": "CC Attribution",
+   "faces": 93087,
+   "url": "https://sketchfab.com/3d-models/chisa-model-uni-profect-fanmade-917e3d4fb73a47229d713867bc4d2a6c",
+   "thumb": "https://media.sketchfab.com/models/917e3d4fb73a47229d713867bc4d2a6c/thumbnails/ba9e8e9d7f914289af71097cafe41948/890d85bfea6246c18b946d7c53caedee.jpeg",
+   "note": "팬메이드 리토폴로지 버전."
+  }
+ ],
+ "downloads": [
+  {
+   "name": "Chisa 초정밀 리깅 모델 (공식 추출 기반)",
+   "site": "Aplaybox (모지옥 · 模之屋)",
+   "url": "https://www.aplaybox.com/details/model/7KkisVs42Ofv",
+   "format": "PMX",
+   "physics": "최상급 — 머리카락 한 가닥, 옷 주름, 치마, 리본까지 개별 강체·조인트가 잡혀 있다. 본 개수가 비정상적으로 많은 것으로 화제가 됐다.",
+   "outfit": "부분 가능 — 표시/비표시 모프로 파츠 단위 전환",
+   "license": "개인 이용 · 재배포 금지 (원저작권 KURO GAMES)",
+   "caveat": "중국 사이트라 가입·로그인이 필요하다. 물리 품질만 보면 현존 최고.",
+   "best": true,
+   "ref": {
+    "label": "80.lv 소개 기사",
+    "url": "https://80.lv/articles/chisa-s-wuthering-waves-3d-model-has-mind-blowing-number-of-bones"
+   }
+  },
+  {
+   "name": "MMD — Wuthering Waves (Chisa) + DL",
+   "site": "DeviantArt · OZ-Sys",
+   "url": "https://www.deviantart.com/oz-sys/art/MMD-Wuthering-Waves-Chisa-DL-1271648960",
+   "format": "PMX (MikuMikuDance)",
+   "physics": "있음 — 머리카락·치마·재킷에 강체와 조인트가 설정되어 MMD/MMM에서 그대로 흔들린다.",
+   "outfit": "가능 — 모프로 파츠를 끄고 켤 수 있고, 같은 갤러리에 다른 공명자 모델이 있어 파츠 이식도 쉽다",
+   "license": "개인 이용 · 크레딧 표기",
+   "caveat": "MediaFire 링크로 배포. MMD/MMM/Blender(mmd_tools) 모두에서 열린다.",
+   "best": false,
+   "ref": {
+    "label": "OZ-Sys 명조 모델 갤러리",
+    "url": "https://www.deviantart.com/oz-sys/gallery/92576975/mmd-wuthering-waves-models"
+   }
+  },
+  {
+   "name": "[FBX] Chisa 3D Model",
+   "site": "DeviantArt · NekoPixil",
+   "url": "https://www.deviantart.com/nekopixil/art/FBX-Chisa-Wuthering-Waves-3D-Model-DL-1280835622",
+   "format": "FBX + PSK / PNG 텍스처",
+   "physics": "본 리깅만 포함 — 물리는 직접 붙여야 한다 (Blender 클로스 시뮬 또는 본 물리)",
+   "outfit": "메시가 파츠별로 분리되어 있어 교체·개조가 가장 쉽다",
+   "license": "개인 이용 · 크레딧 표기",
+   "caveat": "본 방향(bone orientation)이 정리되어 있어 Blender/Unity 리타게팅에 유리하다. 커스텀 셰이더·IK·인게임 애니메이션이 붙은 Blender 파일은 작가 Patreon에 있다.",
+   "best": false,
+   "ref": {
+    "label": "작가 Patreon",
+    "url": "https://www.patreon.com/posts/chisa-wuthering-142618397"
+   }
+  },
+  {
+   "name": "Wuthering Waves — Kuchiba Chisa (PM & NPCs)",
+   "site": "Steam 창작마당 · Garry's Mod",
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3594900996",
+   "format": "GMod 애드온 (플레이어 모델 · NPC · 래그돌)",
+   "physics": "있음 — 머리카락·옷·치마 래그돌 물리, 지글본, 실사형 래그돌 파라미터",
+   "outfit": "가능 — Adjustable Bodygroups로 파츠를 켜고 끈다",
+   "license": "Steam 창작마당 구독",
+   "caveat": "Garry's Mod가 있어야 한다. 페이스포징·핑거포징 지원, RTX-Remix 최적화.",
+   "best": false,
+   "ref": null
+  },
+  {
+   "name": "Sketchfab 다운로드 가능 모델 3종",
+   "site": "Sketchfab",
+   "url": "https://sketchfab.com/search?q=chisa+wuthering&type=models",
+   "format": "glTF / GLB / FBX / USDZ",
+   "physics": "없음 — 정지 메시. 뷰어·프린팅·리깅 소스용",
+   "outfit": "메시 분리 상태에 따라 다름",
+   "license": "CC Attribution (표기 시 자유 사용)",
+   "caveat": "가입만 하면 바로 받을 수 있고, 위 뷰어에서 먼저 돌려본 뒤 결정할 수 있다.",
+   "best": false,
+   "ref": null
+  }
+ ],
+ "note": "모든 모델의 원저작권은 KURO GAMES에 있습니다. 개인 감상·비상업 용도로만 사용하고, 배포처가 요구하는 크레딧 표기를 지켜 주세요."
+}

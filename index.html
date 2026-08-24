@@ -49,6 +49,7 @@
     <a href="#story" data-nav="story">이야기</a>
     <a href="#voice" data-nav="voice">목소리</a>
     <a href="#video" data-nav="video">영상</a>
+    <a href="#models" data-nav="models">3D</a>
     <a href="#gallery" data-nav="gallery">갤러리</a>
   </nav>
   <button class="nav__toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
@@ -246,10 +247,28 @@
   <div class="videos" id="videoList"></div>
 </section>
 
+<!-- ══════════ 3D 모델 ══════════ -->
+<section id="models" class="section" data-section>
+  <header class="shead" data-reveal>
+    <span class="shead__num">06</span>
+    <h2 class="shead__t">3D 모델<em>3D MODELS</em></h2>
+    <p class="shead__d">브라우저에서 바로 돌려보고, 물리·의상 교체가 되는 배포본까지</p>
+  </header>
+
+  <div class="m3d" id="m3dViewer"></div>
+
+  <div class="panel panel--wide" data-reveal>
+    <h3 class="panel__t">다운로드 가능한 배포본</h3>
+    <p class="panel__lead">물리 시뮬레이션(머리카락·치마·옷 흔들림)과 의상/파츠 교체 지원 여부를 기준으로 정리했다.</p>
+    <div class="mlist" id="m3dList"></div>
+    <p class="mnote" id="m3dNote"></p>
+  </div>
+</section>
+
 <!-- ══════════ 갤러리 ══════════ -->
 <section id="gallery" class="section" data-section>
   <header class="shead" data-reveal>
-    <span class="shead__num">06</span>
+    <span class="shead__num">07</span>
     <h2 class="shead__t">갤러리<em>GALLERY</em></h2>
     <p class="shead__d">공식 일러스트 &amp; 부-루 아카이브에서 실시간으로 불러오는 팬아트</p>
   </header>
@@ -269,10 +288,10 @@
         </select>
       </label>
       <label class="sel">
-        <span>등급</span>
-        <select id="fRating">
-          <option value="safe">전체 이용가</option>
-          <option value="all">모두 보기</option>
+        <span>화질</span>
+        <select id="fQuality">
+          <option value="sample">미리보기 (빠름)</option>
+          <option value="original">원본 초고화질</option>
         </select>
       </label>
       <label class="sel">
@@ -283,7 +302,36 @@
           <option value="danbooru">Danbooru</option>
         </select>
       </label>
+      <button class="btn btn--ghost" id="fCopy">URL 목록 복사</button>
       <button class="btn btn--ghost" id="fReload">다시 불러오기</button>
+    </div>
+  </div>
+
+  <!-- 태그 조합 검색 -->
+  <div class="tagbar" id="tagBar" data-reveal>
+    <div class="tagbar__row">
+      <span class="tagbar__lead">태그 조합</span>
+      <span class="tagchip tagchip--fixed">chisa_(wuthering_waves)<i>고정</i></span>
+      <span id="tagChips"></span>
+      <div class="tagbar__input">
+        <input id="tagInput" type="text" autocomplete="off" spellcheck="false"
+               placeholder="태그 추가 — bikini, school_uniform …">
+        <div class="ac" id="tagAc" hidden></div>
+      </div>
+    </div>
+    <div class="tagbar__row tagbar__row--presets">
+      <span class="tagbar__lead">빠른 선택</span>
+      <div class="presets" id="tagPresets"></div>
+    </div>
+    <div class="tagbar__row">
+      <span class="tagbar__lead">수위</span>
+      <div class="rates" id="rateBtns" role="group" aria-label="수위 조절">
+        <button class="rate is-on" data-r="g">전체 이용가<em>general</em></button>
+        <button class="rate is-on" data-r="s">노출 약간<em>sensitive</em></button>
+        <button class="rate" data-r="q">수위 있음<em>questionable</em></button>
+        <button class="rate" data-r="e">높은 수위<em>explicit</em></button>
+      </div>
+      <span class="rates__hint">s / q / e 는 Danbooru에서만 옵니다</span>
     </div>
   </div>
 
@@ -314,10 +362,18 @@
     <img id="lboxImg" alt="">
     <figcaption id="lboxCap"></figcaption>
   </figure>
+  <div class="lbox__bar">
+    <button class="btn" id="lboxDl"><span class="ico-dl"></span>원본 다운로드</button>
+    <span class="lbox__spin" id="lboxSpin" hidden></span>
+  </div>
 </div>
+
+<!-- ══ 토스트 ══ -->
+<div class="toast" id="toast" hidden></div>
 
 <script src="assets/js/app.js"></script>
 <script src="assets/js/voice.js"></script>
+<script src="assets/js/models.js"></script>
 <script src="assets/js/gallery.js"></script>
 </body>
 </html>
