@@ -255,6 +255,60 @@
     <p class="shead__d">브라우저에서 바로 돌려보고, 물리·의상 교체가 되는 배포본까지</p>
   </header>
 
+  <!-- 내 PC의 PMX 모델 뷰어 -->
+  <div class="viewer" data-reveal>
+    <div class="viewer__head">
+      <h3 class="panel__t">내 모델 뷰어<span class="viewer__badge">MMD · PMX</span></h3>
+      <p class="viewer__lead">
+        받아 둔 모델 zip을 아래에 끌어다 놓으면 브라우저가 직접 열어 <strong>물리까지 그대로</strong> 돌린다.
+        파일은 이 컴퓨터 밖으로 나가지 않고 어디에도 저장되지 않는다.
+      </p>
+    </div>
+
+    <div class="viewer__drop" id="vwDrop" role="button" tabindex="0">
+      <span class="viewer__drop-i">✂</span>
+      <b>zip 또는 .pmx 를 여기에 놓기</b>
+      <span>鸣潮_千咲1.03(最新).zip · 千咲_泳装.zip — 여러 개를 한 번에 넣어도 된다</span>
+      <input type="file" id="vwFile" accept=".zip,.pmx" multiple hidden>
+    </div>
+
+    <div class="viewer__loaded" id="vwLoaded" hidden>
+      <span class="tagbar__lead">모델</span>
+      <div class="vmodels" id="vwModels"></div>
+    </div>
+
+    <div class="viewer__stage" id="vwStage">
+      <canvas id="vwCanvas"></canvas>
+      <div class="viewer__spin"></div>
+      <div class="viewer__tools">
+        <button type="button" class="vtool is-on" id="vwPhysics">물리</button>
+        <button type="button" class="vtool" id="vwSway">흔들림</button>
+        <button type="button" class="vtool" id="vwSpin">회전</button>
+        <button type="button" class="vtool" id="vwShake">한 번 흔들기</button>
+        <button type="button" class="vtool" id="vwReset">시점 초기화</button>
+        <button type="button" class="vtool" id="vwShot">스크린샷</button>
+      </div>
+    </div>
+    <p class="viewer__msg" id="vwMsg">모델을 기다리는 중.</p>
+    <p class="viewer__credit">
+      모델 제작 <strong>鸣潮 / 1010浣</strong> · 최종 저작권 KURO GAMES.
+      제작자가 <strong>재배포를 금지</strong>했기 때문에 이 저장소에는 모델 파일이 들어 있지 않다.
+      본인이 받아 둔 파일을 직접 올려서 보는 구조다.
+    </p>
+
+    <div class="viewer__panels" id="vwPanels" hidden>
+      <section class="vpanel">
+        <h4>의상 · 파츠</h4>
+        <p class="vhint">재질을 끄고 켜서 갈아입힌다. 수영복 모델은 <code>Cloth_</code>·<code>Up_</code>·<code>Down_</code>로 나뉘어 있다.</p>
+        <div class="vmats" id="vwMats"></div>
+      </section>
+      <section class="vpanel">
+        <h4>표정</h4>
+        <div id="vwMorphs"></div>
+      </section>
+    </div>
+  </div>
+
   <div class="m3d" id="m3dViewer"></div>
 
   <div class="panel panel--wide" data-reveal>
@@ -375,5 +429,26 @@
 <script src="assets/js/voice.js"></script>
 <script src="assets/js/models.js"></script>
 <script src="assets/js/gallery.js"></script>
+
+<!-- MMD 뷰어 (three.js + Ammo 물리) -->
+<script src="https://unpkg.com/three@0.160.0/examples/jsm/libs/ammo.wasm.js"></script>
+<script>
+  // MMDAnimationHelper 는 전역 Ammo 인스턴스를 요구한다.
+  window.__ammoReady = (typeof Ammo === 'function')
+    ? Ammo().then(lib => { window.Ammo = lib; }).catch(e => console.warn('Ammo 로드 실패', e))
+    : Promise.resolve();
+</script>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module">
+  await window.__ammoReady;
+  await import('./assets/js/viewer.js');
+</script>
 </body>
 </html>
